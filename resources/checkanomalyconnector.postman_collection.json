@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "2c7e0370-db68-4010-b452-9eb2aad1a81b",
+		"name": "Check Status Anomaly",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Status Anomaly",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.8.38:8083/connectors/apman-anomaly/status",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"8",
+						"38"
+					],
+					"port": "8083",
+					"path": [
+						"connectors",
+						"apman-anomaly",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
