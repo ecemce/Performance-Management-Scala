@@ -1,4 +1,4 @@
-package com.ttgint.apman
+package ************
 
 import java.util.Properties
 
@@ -12,25 +12,25 @@ object AnomalyDetector {
   private val DEV_ENV: Map[String, String] = Map(
     "URL_MASTER" -> "spark://spark:7077",
     "APP_NAME" -> "dev_app",
-    "URL_SCHEMA_REGISTRY" -> "http://192.168.8.38:8081",
-    "ANOMALY_TOPIC" -> "APMANANOMALY_anomaly",
+    "URL_SCHEMA_REGISTRY" -> "***************",
+    "ANOMALY_TOPIC" -> "***************",
     "SPARK_EXECUTOR_MEMORY" -> "2g",
     "SPARK_CORES_MAX" -> "2"
   )
   private val ECEM_ENV: Map[String, String] = Map(
-    "URL_MASTER" -> "spark://192.168.8.43:7077",
-    "APP_NAME" -> "cpu_usedpercent_app",
-    "URL_SCHEMA_REGISTRY" -> "http://192.168.8.38:8081",
-    "ANOMALY_TOPIC" -> "APMANANOMALY_anomaly",
+    "URL_MASTER" -> "***************",
+    "APP_NAME" -> "**************",
+    "URL_SCHEMA_REGISTRY" -> "***************",
+    "ANOMALY_TOPIC" -> "***********",
     "SPARK_EXECUTOR_MEMORY" -> "2g",
     "SPARK_CORES_MAX" -> "2"
   )
 
   private val PROD_ENV: Map[String,String] = Map(
     "URL_MASTER" -> "spark://spark:7077",
-    "APP_NAME" -> "apman_anomaly",
-    "URL_SCHEMA_REGISTRY" -> "http://10.86.59.50:8081",
-    "ANOMALY_TOPIC" -> "APMANANOMALY_anomaly",
+    "APP_NAME" -> "**************",
+    "URL_SCHEMA_REGISTRY" -> "*****************",
+    "ANOMALY_TOPIC" -> "************",
     "SPARK_EXECUTOR_MEMORY" -> "2g",
     "SPARK_CORES_MAX" -> "2"
   )
