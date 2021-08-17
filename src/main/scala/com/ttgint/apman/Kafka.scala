@@ -1,4 +1,4 @@
-package com.ttgint.apman
+package ***********
 
 import java.util.Properties
 
@@ -12,16 +12,16 @@ import org.apache.spark.sql.streaming.StreamingQuery
 object Kafka {
   def devEnvKafkaProperties(): Properties = {
     val properties = new Properties()
-    properties.setProperty("kafka.bootstrap.servers", "192.168.8.35:9092,192.168.8.36:9092,192.168.8.37:9092")
+    properties.setProperty("kafka.bootstrap.servers", "****************")
     properties.setProperty("kafka.security.protocol", "SASL_PLAINTEXT")
     properties.setProperty("kafka.sasl.mechanism", "PLAIN")
-    properties.setProperty("kafka.sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule required\n username=\"client\"\n password=\"client@12!\";")
+    properties.setProperty("kafka.sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule required\n username=\"client\"\n password=\"*********\";")
     properties
   }
 
   def prodEnvKafkaProperties(): Properties = {
     val properties = new Properties()
-    properties.setProperty("kafka.bootstrap.servers", "10.86.59.50:9092")
+    properties.setProperty("kafka.bootstrap.servers", "*****************")
     properties
   }
 
@@ -72,7 +72,7 @@ object Kafka {
       .writeStream
       .format("kafka")
       .option("topic", topic)
-      .option("checkpointLocation", "/tmp/apman-spark/checkpoint_second1812125")
+      .option("checkpointLocation", "/************")
 
     properties.stringPropertyNames().forEach(name => {
       writer = writer.option(name, properties.getProperty(name))
