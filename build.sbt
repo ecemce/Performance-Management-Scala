@@ -1,4 +1,4 @@
-name := "APMANAnomalyDetector"
+name := "***********"
 
 version := "0.1"
 
@@ -34,7 +34,7 @@ libraryDependencies +="org.skife.com.typesafe.config" % "typesafe-config" % "0.3
 libraryDependencies += "io.github.cdimascio" % "dotenv-java" % "2.2.0"
 
 
-mainClass in (Compile, run) := Some("com.ttgint.apman.AnomalyDetector")
+mainClass in (Compile, run) := Some("*******************")
 
 showSuccess := false
 
