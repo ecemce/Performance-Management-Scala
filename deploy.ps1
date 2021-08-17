@@ -1,8 +1,8 @@
 $jar = "sparkdeneme2_2.12-0.1.jar"
-$source = "C:\Users\atakan.colak\IdeaProjects\sparkdeneme2\target\scala-2.12\$jar"
-$log4jproperties = "C:\Users\atakan.colak\IdeaProjects\sparkdeneme2\src\main\log4j.properties"
-$remote = "ttg@192.168.8.43"
-$remotejardir = "/home/ttg/jars"
+$source = "************"
+$log4jproperties = "***************"
+$remote = "**************"
+$remotejardir = "**********"
 
 $repositories = (
     "https://packages.confluent.io/maven/"
@@ -41,5 +41,5 @@ ssh $remote "cd ${remotejardir}; ${sparksubmit} --repositories ${repositories} -
 
 #$libjars = $libjars -join ','
 
-#scp "C:\Users\atakan.colak\IdeaProjects\sparkdeneme2\target\scala-2.12\kafkadeneme.jar" "ttg@192.168.8.43:/home/ttg/jars"
-#ssh ttg@192.168.8.43 'spark-submit /home/ttg/jars/kafkadeneme.jar'
+#scp "******************" "**********"
+#ssh *************'spark-submit /home/ttg/jars/kafkadeneme.jar'
