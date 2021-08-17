@@ -1,4 +1,4 @@
-package com.ttgint.apman
+package ***********
 
 import io.confluent.kafka.schemaregistry.client.CachedSchemaRegistryClient
 import io.confluent.kafka.serializers.KafkaAvroDeserializer
