@@ -1,4 +1,4 @@
-package com.ttgint.apman
+package ***************
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{asc, avg, col, count, desc, expr, from_utc_timestamp, last, lit, stddev, sum, unix_timestamp, window}
@@ -13,7 +13,7 @@ object Models {
       )
       .withColumn("topic", lit(topicName))
       .withColumn("column", lit(fieldName))
-      .withColumn("model", lit("ATAKANTESTMODEL"))
+      .withColumn("model", lit("ECEMTESTMODEL"))
       .withColumn("threshold", lit(threshold))
   }
 
