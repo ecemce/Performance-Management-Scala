@@ -2,9 +2,9 @@
 JAR="apmananomalydetector_2.12-0.1.jar"
 SOURCE="$(pwd)/target/scala-2.12/${JAR}"
 LOG4JFILE="$(pwd)/src/main/log4j.properties"
-REMOTE="ttg@192.168.8.43"
-REMOTEJARDIR="/home/ttg/jars"
-SPARKSUBMIT="/usr/local/spark/bin/spark-submit"
+REMOTE="*************"
+REMOTEJARDIR="**************"
+SPARKSUBMIT="******************"
 jsonfile="$(pwd)/resources/config.json"
 
 
